@@ -5,6 +5,8 @@ import org.main.java.example.TabAlgos; // TODO
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
+
+// TODO clasisification des tests (tableau vide, tableau null, tableau non vide, tableaux d'entiers max...)
 class TabAlgosTests {
 
     @Test
