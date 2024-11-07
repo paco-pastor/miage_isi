@@ -3,9 +3,6 @@ package example;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-import java.util.List;
-
-
 class TabAlgosTests {
 
     int[] nullData = null;
@@ -17,7 +14,7 @@ class TabAlgosTests {
     int[] maxData = new int[] { Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE };
     int[] minData = new int[] { Integer.MIN_VALUE, Integer.MIN_VALUE, Integer.MIN_VALUE };
     int[] maxMinData = new int[] { Integer.MAX_VALUE, Integer.MIN_VALUE };
-    
+
     @Test
     void plusGrand() {
         assertThrows(IllegalArgumentException.class, () -> TabAlgos.plusGrand(nullData));
